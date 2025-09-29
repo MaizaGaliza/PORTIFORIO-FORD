@@ -1,0 +1,40 @@
+body {
+    background-color:rgb(255, 254, 252);
+    color: #000000;
+    flex-direction: column;
+    display: flex;
+}
+
+.cabecalho2{
+  flex: 1;
+}
+
+.tela2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+}
+
+
+main{
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer{
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  background-color: #1b357e;
+  justify-content: space-between;
+}
+
+.rodape2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
