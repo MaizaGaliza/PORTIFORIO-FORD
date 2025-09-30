@@ -1,22 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color:rgb(255, 254, 252);
-    color: #000000;
-    flex-direction: column;
-    display: flex;
+  background-color:rgb(255, 254, 252);
+  color: #000000;
+  flex-direction: column;
+  display: flex;
 }
 
 .cabecalho2{
-  flex: 1;
+flex: 1;
 }
 
 .tela2{
-  display: flex;
+  display: flex; 
   justify-content: center;
-  align-items: center;
-  padding: 30px;
-  position: relative;
+  align-items: center; 
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+.comparador-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto; 
+  font-family: sans-serif;
+  text-align: center; 
+}
+.carros{
+  display: flex;           
+  justify-content: center; 
+  gap: 40px;               
+  margin-top: 20px;
+} 
+
+.carro-item {
+  text-align: center;
+
 }
 
+.carro-item img {
+  width: 200px;  
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.carro-info {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: left;
+  font-size: 14px;
+}
+
+.carro-info input[type="checkbox"] {
+  margin-right: 8px; 
+  width: 18px;
+  height: 18px;
+}
+.btn-comparar {
+  background-color: #0056b3; 
+  color: white; 
+  padding: 12px 30px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.btn-comparar:hover {
+background-color: #004494;
+
+}
 
 main{
   display: flex ;
